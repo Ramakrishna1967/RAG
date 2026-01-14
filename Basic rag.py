@@ -3,7 +3,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
-loader = PyPDFLoader("your_internship_data.pdf")
+loader = PyPDFLoader("your_data.pdf")
 raw_data = loader.load()
 
 

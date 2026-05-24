@@ -24,7 +24,7 @@ embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
 
 vector_db = FAISS.from_documents(chunks, embeddings)
 
-print("Block 2 Complete: Vector Database ready.")
+print("Block 2 Complete: Fucking vector Database is fucking ready.")
 
 
 from langchain_google_genai import ChatGoogleGenerativeAI
